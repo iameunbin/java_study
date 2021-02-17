@@ -1,0 +1,18 @@
+// 산술 연산자를 사용하여 총점과 평균 구하기
+
+package chapter03;
+
+public class OperationEx1 {
+
+	public static void main(String[] args) {
+		int mathScore = 90;
+		int engScore = 70;
+		
+		int totalScore = mathScore + engScore;
+		int avgScore = totalScore / 2;
+		
+		System.out.println("총점 : " + totalScore);
+		System.out.println("평균 : " + avgScore);
+	}
+
+}
